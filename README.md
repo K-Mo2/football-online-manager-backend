@@ -14,7 +14,7 @@ pnpm install
 
 ```bash
 npx prisma generate
-npx prisma migrate dev --name migration
+npx prisma migrate dev --name migration_name
 ```
 
 4. Then seeed the database by running the following command:
@@ -33,6 +33,12 @@ yarn dev
 pnpm dev
 # or
 bun dev
+```
+
+6. You can view and manage the database from the database client prisma studio by running the following command:
+
+```bash
+npx prisma studio
 ```
 
 ### Time Frame
