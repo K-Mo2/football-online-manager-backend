@@ -17,7 +17,13 @@ npx prisma generate
 npx prisma migrate dev --name migration
 ```
 
-4. Finally, run one of the following commands to run the server (`npm` recommended):
+4. Then seeed the database by running the following command:
+
+```bash
+npm run seed
+```
+
+5. Finally, run one of the following commands to run the server (`npm` recommended):
 
 ```bash
 npm run dev
